@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.watson.motocyclerentals" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/motocyclerentals"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.watson.motocyclerentals.main_page"
+            android:label="@string/motocyclerentals" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.watson.motocyclerentals.motorcycle_rental"
+            android:label="@string/motocyclerentals" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.watson.motocyclerentals.home_page"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name="com.watson.motocyclerentals.about_us"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.watson.motocyclerentals.contact_us"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name="com.watson.motocyclerentals.customer_details"
+            android:label="@string/title_activity_customer" >
+        </activity>
+    </application>
+
+</manifest>
